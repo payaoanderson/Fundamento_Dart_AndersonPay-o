@@ -1,5 +1,3 @@
-void main() {
-
   import 'dart:io';
 
 void main() {
@@ -29,7 +27,4 @@ void main() {
   } else {
     print("Classificação: Recuperação");
   }
-}
-
-  
 }
