@@ -2,7 +2,7 @@ import 'dart:io';
 
 void main() {
   // Solicita ao usuário que insira um número
-  stdout.write('Digite um número para gerar a tabuada (deve ser um número inteiro): ');
+  print('Digite um número para gerar a tabuada (deve ser um número inteiro): ');
   String? input = stdin.readLineSync();
 
   // Verifica se a entrada não é nula e pode ser convertida para um número
